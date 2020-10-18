@@ -1,0 +1,204 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0 !important;
+        padding: 0 !important;
+        background-color: none !important;
+        -webkit-print-color-adjust: exact;
+    }
+    #app {
+        box-shadow: none !important;
+    }
+}
+
+body {
+    width: inherit;
+    max-width: inherit;
+    margin: 0;
+    line-height: normal;
+    color: 333;
+    font-family: 'Airbnb Cereal App';
+    padding: 2rem 1.25rem;
+    background-color: #eee;
+}
+
+strong {
+    font-weight: 300;
+}
+
+.color-light {
+    color: #444;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+}
+
+#app {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    background-color: #FFF;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding: 8mm;
+    border-top: 3px solid #333;
+    position: relative;
+}
+
+h1, h2, h3 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 1;
+}
+
+h3:before {
+    border-top: 2px solid #dfdfdf;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+h3 span {
+    background: #fff;
+    padding-right: 10px;
+}
+
+header {
+    margin-bottom: 7mm;
+}
+
+
+header h1 {
+    font-size: 2rem;
+}
+
+
+header .text {
+    text-align: left;
+    width: 160mm;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+header .picture {
+    display: block;
+    float: right;
+    z-index: 1;
+    position: relative;
+}
+
+header .picture img {
+    float: right;
+}
+
+header a, header a:active, header a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+header p {
+    font-size: 0.9rem;
+}
+
+header i {
+    margin-right: 5px;
+}
+
+header .fa-phone {
+    margin-right: 3px;
+    margin-left: -3px;
+}
+header .fa-envelope {
+    margin-right: 5px;
+    margin-left: -1px;
+}
+
+header .contact1 {
+    width: 250px;
+    display: inline-block;
+}
+
+header .contact2 {
+    width: 310px;
+    display: inline-block;
+}
+
+.item {
+    margin: 3.2mm 2mm;
+    position: relative;
+}
+
+.item p {
+    line-height: 1.1;
+    font-size: 0.9rem;
+    hyphens: none;
+}
+
+.item p small {
+    font-size: 0.8rem;
+}
+
+.item .headline {
+    margin-bottom: 2px;
+}
+
+.item .date {
+    font-size: 0.9rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #777;
+}
+
+.item .location {
+    color: #777;
+}
+
+.item .sep {
+    margin-left: 10px;
+}
+
+.item .cm::after {
+    content: ",";
+    color: #fff
+}
+
+.item .summary.limited {
+    width: 85%;
+}
+
+.item .bullet::before{
+    content: '- ';
+    color: #dfdfdf;
+}
+
+.languages .item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* .skills .item {
+    margin: 2.5mm 2mm;
+} */
