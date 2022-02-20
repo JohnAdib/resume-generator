@@ -19,7 +19,7 @@ $ php -S localhost:8000
 ```
 
 ## PDF version
-The css is optimized for printing in A4 format. You can just use the print window of a browser (Chrome is recommended) to generate the PDF version.
+The CSS style is optimized for printing in A4 format. You can just use the print window of a browser (Chrome is recommended) to generate the PDF version.
 
 ## Feedback
 It is recommended to use [Resume Worded](https://resumeworded.com/first-login-home.php) to get a high score on your resume.
