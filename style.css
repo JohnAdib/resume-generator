@@ -4,7 +4,8 @@
 }
 
 @media print {
-    html, body {
+    html,
+    body {
         width: 210mm;
         height: 297mm;
         margin: 0 !important;
@@ -36,6 +37,11 @@ strong {
     color: #444;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     margin: 0;
     text-align: left;
@@ -52,7 +58,9 @@ p {
     position: relative;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: left;
     margin: 0;
     padding: 0;
@@ -87,11 +95,9 @@ header {
     margin-bottom: 7mm;
 }
 
-
 header h1 {
     font-size: 2rem;
 }
-
 
 header .text {
     text-align: left;
@@ -112,7 +118,9 @@ header .picture img {
     float: right;
 }
 
-header a, header a:active, header a:visited {
+header a,
+header a:active,
+header a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -129,6 +137,7 @@ header .fa-phone {
     margin-right: 3px;
     margin-left: -3px;
 }
+
 header .fa-envelope {
     margin-right: 5px;
     margin-left: -1px;
@@ -188,7 +197,11 @@ header .contact2 {
     width: 85%;
 }
 
-.item .bullet::before{
+.item .bullet {
+    list-style: none;
+}
+
+.item .bullet::before {
     content: '- ';
     color: #dfdfdf;
 }

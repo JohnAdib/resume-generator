@@ -6,19 +6,9 @@ new Vue({
     },
     methods: {
         run() {
-            // resume.json schema is based on https://gitconnected.com api
-            // you can use gitconnected to fill the json, and adding its url intead of resume.json
-            // e.g. https://gitconnected.com/v1/portfolio/saman
-            this.$http.get('./resume.json').then(response => {
-                this.$http.get('./resume-override.json').then(responseOverride => {
-                    this.resume = response.body;
-                    Object.deepExtend(this.resume, responseOverride.body);
-                    this.resume.work.sort((a, b) => b.start.year - a.start.year);
-                    this.resume.education.sort((a, b) => b.start.year - a.start.year);
-                    this.resume.volunteer.sort((a, b) => b.start.year - a.start.year);
-                    this.resume.awards.sort((a, b) => b.fullDate.year - a.fullDate.year);
-                    this.loaded = true;
-                });
+            this.$http.get('./data.json').then(response => {
+                this.resume = response.body;
+                this.loaded = true;
             })
         }
     },
@@ -41,10 +31,6 @@ new Vue({
         },
         editMode() {
             editMode();
-        },
-        br(str) {
-            str = '<span class="bullet" ></span>' + str;
-            return str.replace(/(?:\r\n|\r|\n)/g, '<br> <span class="bullet" ></span>');
         }
     },
     created() {
@@ -53,7 +39,7 @@ new Vue({
 });
 
 
-Object.deepExtend = function (destination, source) {
+Object.deepExtend = function(destination, source) {
     for (var property in source) {
         if (typeof source[property] === "object" &&
             source[property] !== null) {
@@ -66,6 +52,6 @@ Object.deepExtend = function (destination, source) {
 };
 
 editModeValue = false;
-editMode = function () {
+editMode = function() {
     document.body.contentEditable = editModeValue = !editModeValue;
 }

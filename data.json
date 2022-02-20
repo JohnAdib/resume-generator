@@ -1,0 +1,341 @@
+{
+    "basics": {
+        "name": "Saman Soltani",
+        "picture": "https://www.gravatar.com/avatar/b006b7109755113859883927bdbc29c0/?size=500",
+        "label": "Software Developer,  Master’s Student in Computer Science and WorldSkills Champion",
+        "headline": "",
+        "summary": "",
+        "website": "https://samansoltani.com",
+        "blog": null,
+        "username": "saman",
+        "email": "me@samansoltani.com",
+        "region": "Vogeliusweg 23, 33100 Paderborn,  Germany",
+        "location": {},
+        "phone": "+4915204148244",
+        "profiles": [
+            {
+                "network": "gitconnected",
+                "username": "saman",
+                "url": "https://gitconnected.com/saman"
+            },
+            {
+                "network": "GitHub",
+                "username": "saman",
+                "url": "https://github.com/saman"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "https://linkedin.com/in/samansoltani",
+                "username": "samansoltani"
+            }
+        ]
+    },
+    "projects": [],
+    "work": [
+        {
+            "company": "Heinz Nixdorf Institut ",
+            "position": "Software Developer",
+            "website": "",
+            "location": "Paderborn, Germany",
+            "summary": [
+                "Developed and maintained various software to bring research groups' projects in one market place.",
+                "Implemented bash scripts, designed and developed two SPAs and  RESTful APIs.",
+                "Worked on microservice architecture with 15+ services."
+            ],
+            "isCurrentRole": true,
+            "start": {
+                "year": 2018,
+                "month": 8
+            },
+            "end": {},
+            "highlights": []
+        },
+        {
+            "company": "webvariants",
+            "position": "Web Developer",
+            "website": "",
+            "location": "Magdeburg, Germany",
+            "summary": [
+                "Developed 10+ complex UI components for an advanced customer portal.",
+                "Optimized and improved the front-end application build pipeline (40% faster). "
+            ],
+            "isCurrentRole": false,
+            "start": {
+                "year": 2017,
+                "month": 6
+            },
+            "end": {
+                "year": 2017,
+                "month": 9
+            },
+            "highlights": []
+        },
+        {
+            "company": "ArvanCloud",
+            "position": "Full-stack Web Developer",
+            "website": "",
+            "location": "Tehran, Iran",
+            "summary": [
+                "Helped the startup by building the second version of its web applications.",
+                "Collaborated as a developer in scrum-based agile project management.",
+                "Designed and Implemented the customers' control panel as a SPA.",
+                "Transformed the RESTful API of the video streaming platform."
+            ],
+            "isCurrentRole": false,
+            "start": {
+                "year": 2016,
+                "month": 3
+            },
+            "end": {
+                "year": 2017,
+                "month": 2
+            },
+            "highlights": []
+        },
+        {
+            "company": "Parcosoft",
+            "position": "Technical Consultant and Web Developer ",
+            "website": "",
+            "location": "Ahvaz, Iran",
+            "summary": [
+                "Collaborated as an advisor for projects of the company and provided web-based solutions.",
+                "Implemented corporate websites, developing and maintaining a CMS for the company’s news agency."
+            ],
+            "isCurrentRole": false,
+            "start": {
+                "year": 2011,
+                "month": 11
+            },
+            "end": {
+                "year": 2016,
+                "month": 3
+            },
+            "highlights": []
+        },
+        {
+            "company": "Savand Business Solutions",
+            "position": "Full-stack Web Developer",
+            "website": "",
+            "location": "Yazd, Iran",
+            "summary": [
+                "Designed and developed a light CMS for publishing and managing mid-range business websites.",
+                "Conducted a download platform with 100k+ users."
+            ],
+            "isCurrentRole": false,
+            "start": {
+                "year": 2011,
+                "month": 11
+            },
+            "end": {
+                "year": 2013,
+                "month": 11
+            },
+            "highlights": []
+        }
+    ],
+    "publications": [],
+    "education": [
+        {
+            "institution": "Paderborn University",
+            "area": "Computer Science",
+            "studyType": "Master’s Degree",
+            "website": "",
+            "start": {
+                "year": 2017,
+                "month": 10
+            },
+            "end": {
+                "year": null,
+                "month": null
+            },
+            "description": "Major: Software Engineering",
+            "activities": "Paderborn, Germany",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "University of Applied Science & Technology ",
+            "area": "Computer Software Technology Engineering",
+            "studyType": "Bachelor’s Degree",
+            "website": "",
+            "start": {
+                "year": 2007,
+                "month": null
+            },
+            "end": {
+                "year": 2011,
+                "month": null
+            },
+            "description": "",
+            "activities": "Harand, Iran",
+            "gpa": "",
+            "courses": []
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Fardazi Team",
+            "position": "Founder, Mentor and Web Developer",
+            "website": "",
+            "location": "Tehran, Iran",
+            "summary": "Taught programming courses to 100+ kids around Iran. Made the Fardazi website.",
+            "start": {
+                "year": 2015,
+                "month": 2
+            },
+            "end": {
+                "year": 2017,
+                "month": 2
+            },
+            "highlights": []
+        },
+        {
+            "organization": "WorldSkills International",
+            "position": "International Web Technologies Expert",
+            "website": "",
+            "location": "",
+            "summary": "Managed and directed five Iranian National Skills competitions. Created and assessed 10+ competition test projects. Technical instructor for two Iranian bronze medalist in WorldSkills competitions.",
+            "start": {
+                "year": 2013,
+                "month": 5
+            },
+            "end": {
+                "year": 2016,
+                "month": 5
+            },
+            "highlights": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "Medallion for Excellence",
+            "summary": "Software Solutions for Business skill, 5th place in the world",
+            "awarder": "WorldSkills International Competition",
+            "fullDate": {
+                "year": 2011,
+                "month": 10
+            },
+            "location": "London, United Kingdom"
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "level": "Fluent",
+            "course": "C1"
+        },
+        {
+            "name": "German",
+            "level": "Elementary proficiency",
+            "course": "A2"
+        },
+        {
+            "name": "Farsi",
+            "level": "Native",
+            "course": ""
+        }
+    ],
+    "interests": [],
+    "references": [],
+    "skills": {
+        "Languages": [
+            {
+                "name": "HTML5"
+            },
+            {
+                "name": "CSS3"
+            },
+            {
+                "name": "JavaScript"
+            },
+            {
+                "name": "TypeScript"
+            },
+            {
+                "name": "Node.js"
+            },
+            {
+                "name": "PHP"
+            },
+            {
+                "name": "Python"
+            },
+            {
+                "name": "Java"
+            },
+            {
+                "name": "Bash"
+            }
+        ],
+        "Back-end": [
+            {
+                "name": "Web Services",
+                "items": [
+                    "SOAP",
+                    "RESTful"
+                ]
+            },
+            {
+                "name": "Web Frameworks",
+                "items": [
+                    "Nest.js",
+                    "Spring",
+                    "Laravel"
+                ]
+            },
+            {
+                "name": "Databases",
+                "items": [
+                    "MongoDB",
+                    "MySQL"
+                ]
+            }
+        ],
+        "Front-end": [
+            {
+                "name": "JS libraries",
+                "items": [
+                    "Vue.js",
+                    "React",
+                    "Angular",
+                    "jQuery",
+                    "Socket.IO",
+                    "etc."
+                ]
+            },
+            {
+                "name": "CSS frameworks",
+                "items": [
+                    "Bootstrap",
+                    "Material",
+                    "etc."
+                ]
+            }
+        ],
+        "CI/CD": [
+            {
+                "name": "Container",
+                "items": [
+                    "Docker",
+                    "Kubernetes"
+                ]
+            },
+            {
+                "name": "Build Tool",
+                "items": [
+                    "Webpack",
+                    "Jenkins",
+                    "Gradle"
+                ]
+            },
+            {
+                "name": "Version Controller",
+                "items": [
+                    "Git",
+                    "GitHub",
+                    "GitLab"
+                ]
+            }
+        ]
+    }
+}
